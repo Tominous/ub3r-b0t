@@ -69,7 +69,7 @@ namespace UB3RB0T
 
             if (this.Config.AlertEndpoint != null)
             {
-                // this.Logger.AddLogger(new WebhookLog(this.BotType, this.Shard, this.Config.AlertEndpoint));
+                 this.Logger.AddLogger(new WebhookLog(this.BotType, this.Shard, this.Config.AlertEndpoint));
             }
 
             // If a custom API endpoint is supported...support it
